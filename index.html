@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Design the layout</title>
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@900&display=swap");
+    </style>
+    <style>
+      header {
+        position: sticky;
+        top: 0;
+      }
+      * {
+        margin: 0;
+        padding: 0;
+        font-family: "Poppins", sans-serif;
+      }
+      nav {
+        background-color: rgba(0, 89, 255, 0.897);
+        padding: 12px 0px;
+      }
+      ul li {
+        list-style: none;
+        display: inline;
+        padding: 18px;
+        color: white;
+        font-size: bolder;
+      }
+      .container {
+        border: 3px solid black;
+        height: 520px;
+        width: 1513px;
+        padding: 9px;
+        background-color: green;
+      }
+      h4 {
+        text-align: center;
+        padding: 212px;
+        color: white;
+      }
+      /* p{
+             margin: auto;
+             width: 45%; 
+             align-items: center;
+        } */
+      .box {
+        display: inline-block;
+        width: 544px;
+        height: 466px;
+        border: 2px solid black;
+        margin: 33px;
+        padding: 0px 68px 0px 68px;
+      }
+      #box1 {
+        background-color: purple;
+      }
+      #box2 {
+        background-color: orange;
+      }
+      .cylinder {
+        height: 204px;
+        width: 858px;
+        border: 3px solid rgba(0, 0, 0, 0.518);
+        border-radius: 53px;
+        margin: auto;
+        display: block;
+        background-color: grey;
+      }
+
+      h1 {
+        padding: 66px;
+        text-align: center;
+        color: brown;
+      }
+      .capsucles {
+        width: 1513px;
+        height: 100px;
+        border: 2px solid black;
+        margin: 23px;
+        background-color: rgba(25, 123, 123, 0.76);
+      }
+      .orange-box {
+        height: 64px;
+        width: 65px;
+        background-color: orange;
+        position: fixed;
+        bottom: 12px;
+        right: 12px;
+        border-radius: 60px;
+      }
+      .ftp {
+        font-size: 28px;
+        text-align: center;
+        padding: 35px;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul>
+          <li>Home</li>
+          <li>About</li>
+          <li>Services</li>
+          <li>Contact Us</li>
+        </ul>
+      </nav>
+    </header>
+
+    <div class="container">
+      <div class="box" id="box1">
+        <h4 class="heading">Heading-1</h4>
+      </div>
+      <div class="box" id="box2">
+        <h4 class="heading">Heading-2</h4>
+      </div>
+    </div>
+    <div class="orange-box"></div>
+    <span class="cylinder">
+      <h1>Welcome to the sigma web devlopement express</h1>
+    </span>
+    <footer class="capsucles">
+      <h5 class="ftp">
+        Hii,This is my footer section and last section of this design
+      </h5>
+    </footer>
+  </body>
+</html>
